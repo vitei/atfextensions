@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vitei.ATFExtensions", "Vitei.ATFExtensions\Vitei.ATFExtensions.csproj", "{7C14F95D-0005-4E92-A7E5-199C6CE3080D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ThirdParty", "ThirdParty", "{86F7CCD6-820D-4BF0-B7CD-36AED1C18298}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atf.Core.vs2010", "ThirdParty\ATF\Framework\Atf.Core\Atf.Core.vs2010.csproj", "{9D1835B6-D1C2-44BA-BAE1-05C6EC442D2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atf.Gui.vs2010", "ThirdParty\ATF\Framework\Atf.Gui\Atf.Gui.vs2010.csproj", "{4765C2A7-F989-40DB-BC12-FCD67025B93F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atf.Gui.WinForms.vs2010", "ThirdParty\ATF\Framework\Atf.Gui.WinForms\Atf.Gui.WinForms.vs2010.csproj", "{7C36A258-9102-420D-B80A-5EB5717644B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vitei.FMODInterop", "Vitei.FMODInterop\Vitei.FMODInterop.csproj", "{8BC32F28-A48E-45D5-BF92-26F0AB3AD136}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vitei.FMODInterop.Test", "Vitei.FMODInterop.Test\Vitei.FMODInterop.Test.csproj", "{03F14972-28A8-46CA-9BF3-EEF7D7049887}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C14F95D-0005-4E92-A7E5-199C6CE3080D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C14F95D-0005-4E92-A7E5-199C6CE3080D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C14F95D-0005-4E92-A7E5-199C6CE3080D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C14F95D-0005-4E92-A7E5-199C6CE3080D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D1835B6-D1C2-44BA-BAE1-05C6EC442D2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D1835B6-D1C2-44BA-BAE1-05C6EC442D2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D1835B6-D1C2-44BA-BAE1-05C6EC442D2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D1835B6-D1C2-44BA-BAE1-05C6EC442D2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4765C2A7-F989-40DB-BC12-FCD67025B93F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4765C2A7-F989-40DB-BC12-FCD67025B93F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4765C2A7-F989-40DB-BC12-FCD67025B93F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4765C2A7-F989-40DB-BC12-FCD67025B93F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C36A258-9102-420D-B80A-5EB5717644B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C36A258-9102-420D-B80A-5EB5717644B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C36A258-9102-420D-B80A-5EB5717644B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C36A258-9102-420D-B80A-5EB5717644B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BC32F28-A48E-45D5-BF92-26F0AB3AD136}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BC32F28-A48E-45D5-BF92-26F0AB3AD136}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BC32F28-A48E-45D5-BF92-26F0AB3AD136}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BC32F28-A48E-45D5-BF92-26F0AB3AD136}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03F14972-28A8-46CA-9BF3-EEF7D7049887}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03F14972-28A8-46CA-9BF3-EEF7D7049887}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03F14972-28A8-46CA-9BF3-EEF7D7049887}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03F14972-28A8-46CA-9BF3-EEF7D7049887}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9D1835B6-D1C2-44BA-BAE1-05C6EC442D2F} = {86F7CCD6-820D-4BF0-B7CD-36AED1C18298}
+		{4765C2A7-F989-40DB-BC12-FCD67025B93F} = {86F7CCD6-820D-4BF0-B7CD-36AED1C18298}
+		{7C36A258-9102-420D-B80A-5EB5717644B6} = {86F7CCD6-820D-4BF0-B7CD-36AED1C18298}
+	EndGlobalSection
+EndGlobal
